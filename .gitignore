@@ -20,3 +20,4 @@ PrecompiledWeb
 */ClientBin
 # Windows left-overs
 Thumbs.db   
+*/.vs/
