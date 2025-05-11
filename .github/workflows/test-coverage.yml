@@ -44,7 +44,7 @@ jobs:
       
       # Using the approach that worked in powershell
       - name: Test with code coverage
-        run: dotnet test --configuration Release --no-build /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput="TestResults/
+        run: dotnet test --configuration Release --no-build /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput="TestResults/"
       
       # Add a diagnostic step to verify coverage files were created
       - name: Verify coverage files
