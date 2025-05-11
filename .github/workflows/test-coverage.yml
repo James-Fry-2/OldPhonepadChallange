@@ -3,9 +3,9 @@ name: "Build, Test & Test Coverage"
 # every commit in a pull request, any published release.
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "master"]
   pull_request:
-    branches: ["main"]
+    branches: ["main", "master"]
   release:
     types: [published]
 jobs:
